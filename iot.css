@@ -1,0 +1,161 @@
+*{
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif ;
+    border: border-box;
+}
+.iot-navbar{
+    background-color: black;
+    height: 65px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 1.3rem;
+}
+.border-hover{
+    border: 1.5px solid white;
+}
+.test{
+    position: relative;
+}
+.iot-logo{
+    background-image: url("iotronicslogo1updated13112-z535-200h.png");
+    background-size: cover;
+    display: flex;
+    height: 65px;
+    width: 65px;
+    margin-right: 250px;
+}
+body{
+    overflow-x: hidden;
+}
+.HeroPage{
+    height: 100vh;
+    width: 100vw;
+    background-color: #030205;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.HeroPagec2{
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.InnerHeroc2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: white; */
+    height: 100%;
+    width: 100%;
+    transform: translate(5%,-5%);
+}
+.AboutUs1{
+    height:100vh;
+    width: 100vw;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    position:relative;
+    background-color: #030205;
+}
+.abouttext {
+    position: absolute;
+    color: white;
+    font-size: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30vw;
+}
+.heading{
+    margin-left: 10px;
+}
+.Focuses1{
+    height:100%;
+    width: 100%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    position:relative;
+    background-color: #030205;
+}
+.Focusestext{
+    display:block;
+    justify-content: center;
+    align-items:center ;
+    position: absolute;
+    color: white;
+    top: 25%;
+    font-size: 30px;
+    padding: 20px;
+    text-align: center;
+    gap:15px;
+}
+.Focusestext h6{
+    font-size: 40px;
+}
+.Teams1{
+    height:100%;
+    width: 100%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    position:relative;
+    background-color: #030205;
+}
+.whatsapp1{
+    height:100%;
+    width: 100%;
+    display:flex;
+    align-items: center;
+    justify-content:space-evenly;
+    position:relative;
+    background-color: #030205;
+}
+.lastpage1{
+    height:100%;
+    width: 100%;
+    display:flex;
+    align-items: center;
+    justify-content:space-evenly;
+    position:relative;
+    background-color: #030205;
+}
+.lastpage1a p{
+    font-size: 30px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: white;
+}
+.lastpage1b p{
+    font-size: 30px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: white;
+}
+.lastpage2{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background-color: #030205;
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+}
+.lastpage2 p{
+    font-size: 25px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    color: white;
+}
